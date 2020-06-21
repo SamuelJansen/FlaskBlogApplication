@@ -1,0 +1,18 @@
+heroku create jansen-flask-blog-application
+Creating jansen-flask-blog-application... done
+https://jansen-flask-blog-application.herokuapp.com/ | https://git.heroku.com/jansen-flask-blog-application.git
+
+heroku addons:create heroku-postgresql:hobby-dev --app jansen-flask-blog-application
+Creating heroku-postgresql:hobby-dev on jansen-flask-blog-application... free
+Database has been created and is available
+ ! This database is empty. If upgrading, you can transfer
+ ! data from another database with pg:copy
+Created postgresql-clean-61389 as DATABASE_URL
+Use heroku addons:docs heroku-postgresql to view documentation
+
+heroku config --app jansen-flask-blog-application
+=== jansen-flask-blog-application Config Vars
+DATABASE_URL: postgres://iprubqonzlhcaw:dde0d66f523ab1afa1bdd0407352321d8b994253fc8e7e504b11df5d6bb56dae@ec2-52-86-33-50.compute-1.amazonaws.com:5432/d8ifkf6cglthnu
+
+heroku git:remote -a jansen-flask-blog-application
+set git remote heroku to https://git.heroku.com/jansen-flask-blog-application.git
