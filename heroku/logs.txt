@@ -13,6 +13,11 @@ Use heroku addons:docs heroku-postgresql to view documentation
 heroku config --app jansen-flask-blog-application
 === jansen-flask-blog-application Config Vars
 DATABASE_URL: postgres://iprubqonzlhcaw:dde0d66f523ab1afa1bdd0407352321d8b994253fc8e7e504b11df5d6bb56dae@ec2-52-86-33-50.compute-1.amazonaws.com:5432/d8ifkf6cglthnu
+USER=iprubqonzlhcaw
+PASSWORD=dde0d66f523ab1afa1bdd0407352321d8b994253fc8e7e504b11df5d6bb56dae
+HOST=ec2-52-86-33-50.compute-1.amazonaws.com
+PORT=5432
+DATABASE=d8ifkf6cglthnu
 
 heroku git:remote -a jansen-flask-blog-application
 set git remote heroku to https://git.heroku.com/jansen-flask-blog-application.git
