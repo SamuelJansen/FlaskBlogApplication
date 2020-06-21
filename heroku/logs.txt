@@ -16,3 +16,5 @@ DATABASE_URL: postgres://iprubqonzlhcaw:dde0d66f523ab1afa1bdd0407352321d8b994253
 
 heroku git:remote -a jansen-flask-blog-application
 set git remote heroku to https://git.heroku.com/jansen-flask-blog-application.git
+
+https://jansen-flask-blog-application.herokuapp.com/
